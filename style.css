@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cookie&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 10, 12);
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: light;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.intro-content h1 {
+    font-size: 7em;
+    color: white;
+}
+
+.intro-content h1 span {
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 160px;
+    font-family: "Cookie", cursive;
+}
+
+.intro-content p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    max-width: 720px;
+}
+
+.intro-content a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    border-style: solid white;
+}
+
+.intro-images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0em;
+}
+
+
+.intro-images img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.second {
+    padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second a {
+    text-decoration: none ;
+    color: white;
+}
+
+.second .first {
+    width: 31em;
+}
+
+.second .first h3 {
+    font-weight: lighter;
+}
+
+.secondi img {
+    width: 650px;
+}
+
+.secondi div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third .first1  {
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third .first1 h1 {
+    width: 5em;
+}
+
+.third .first1 p {
+    width: 28em;
+}
+
+.third .first1 h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.eight a {
+    text-decoration: none;
+    color: white;
+    padding-right: .4em;
+}
